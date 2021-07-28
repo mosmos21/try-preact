@@ -21,10 +21,15 @@
       "build/"
     ],
     "rules": {
-      "indent": ["error", 2]
+      "indent": [
+        "error",
+        2
+      ],
+      "@typescript-eslint/explicit-function-return-type": "off"
     }
   },
   "dependencies": {
+    "destyle.css": "^2.0.2",
     "preact": "^10.3.1",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1"
